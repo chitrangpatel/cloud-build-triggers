@@ -3,5 +3,4 @@ steps:
     args:
       - echo
       - hello world
-build:
-  logs_bucket: chitrang-cb
+logs_bucket: chitrang-cb
