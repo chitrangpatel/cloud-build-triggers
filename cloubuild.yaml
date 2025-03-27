@@ -1,5 +1,5 @@
 steps:
   - name: ubuntu
     args:
-      - pwd
+      - ls
 logs_bucket: ceveloper-connect-bugbash 
