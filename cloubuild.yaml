@@ -1,0 +1,8 @@
+steps:
+  - name: ubuntu
+    args:
+      - pwd
+        #serviceAccount: projects/chitrang-tekton/serviceAccounts/960605661996-compute@developer.gserviceaccount.com
+options:
+  logging: NONE
+  pubsubTopic: projects/chitrang-tekton/topics/chitrang-custom 
