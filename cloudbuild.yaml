@@ -1,5 +1,8 @@
 steps:
   - name: ubuntu
     script: |
-    sleep 30 && ls -lh
+    #!/usr/bin/env bash
+    echo "Hello World"
+    sleep 30
+    ls -lh
 logs_bucket: ceveloper-connect-bugbash 
