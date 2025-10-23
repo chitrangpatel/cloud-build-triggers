@@ -1,4 +1,4 @@
 steps:
   - name: ubuntu
-    args: ["ls", "-lh"]
+    args: ["echo", "Evil change 1233445"]
 logs_bucket: ceveloper-connect-bugbash 
